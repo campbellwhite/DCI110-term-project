@@ -20,8 +20,12 @@ h1 {color: #F9F4EE;
     color: #4F6D7A;
 }
 
-.card-text {font-size: 1.7rem;
+.card-text {font-size: 1.3rem;
     color: #4F6D7A;
 }
 
 #aboutmecard {background-color: #C0D6DF;}
+
+#projectintro {background-color:#4F6D7A;
+color: #F9F4EE;
+}
