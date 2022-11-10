@@ -1,0 +1,27 @@
+
+body{background-color: #F9F4EE;}
+
+body {font-family: 'Lora', serif;
+}
+
+#mainTitle {background-color: #4F6D7A;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5rem;
+}
+
+#navbar {background-color: #C0D6DF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {color: #F9F4EE;
+}
+
+.card-title {font-size: 3rem;
+    color: #4F6D7A;
+}
+
+.card-text {font-size: 1.7rem;
+    color: #4F6D7A;
+}
+
+#aboutmecard {background-color: #C0D6DF;}
