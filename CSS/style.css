@@ -40,3 +40,21 @@ footer {background-color: #4F6D7A;
 
 #contact {font-size: 1.5rem;
 }
+
+#datamapping {background-color: #C0D6DF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#regdiscon {background-color: #C0D6DF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#netanalysis {background-color: #C0D6DF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#resumeheading {background-color: #C0D6DF;
+color: #4F6D7A;
+font-family: 'Roboto Condensed', sans-serif;}
+
+.border{background-color: #4F6D7A;}
