@@ -28,4 +28,15 @@ h1 {color: #F9F4EE;
 
 #projectintro {background-color:#4F6D7A;
 color: #F9F4EE;
+font-size: 1.75rem;
+}
+
+footer {background-color: #4F6D7A;
+    color: black;
+}
+
+#name {font-size: 1.5rem;
+}
+
+#contact {font-size: 1.5rem;
 }
