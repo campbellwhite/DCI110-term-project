@@ -26,6 +26,8 @@ h1 {color: #F9F4EE;
 
 #aboutmecard {background-color: #C0D6DF;}
 
+#aboutmetitle {font-family: 'Oswald', sans-serif;}
+
 #projectintro {background-color:#4F6D7A;
 color: #F9F4EE;
 font-size: 1.75rem;
@@ -45,6 +47,15 @@ footer {background-color: #4F6D7A;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#NAtext {color: #4F6D7A;
+}
+
+#RDtext {color: #4F6D7A;
+}
+
+#DMtext {color: #4F6D7A;
+}
+
 #regdiscon {background-color: #C0D6DF;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -53,8 +64,8 @@ footer {background-color: #4F6D7A;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-#resumeheading {background-color: #C0D6DF;
-color: #4F6D7A;
+#resumeheading {background-color:#4F6D7A;
+color:#F9F4EE;
 font-family: 'Roboto Condensed', sans-serif;}
 
-.border{background-color: #4F6D7A;}
+.DMpic {width: 15rem;}
