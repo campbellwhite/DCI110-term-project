@@ -30,7 +30,7 @@ h1 {color: #F9F4EE;
 
 #projectintro {background-color:#4F6D7A;
 color: #F9F4EE;
-font-size: 1.75rem;
+font-size: 1.2rem;
 }
 
 footer {background-color: #4F6D7A;
@@ -56,16 +56,23 @@ footer {background-color: #4F6D7A;
 #DMtext {color: #4F6D7A;
 }
 
-#regdiscon {background-color: #C0D6DF;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-#netanalysis {background-color: #C0D6DF;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
 #resumeheading {background-color:#4F6D7A;
 color:#F9F4EE;
 font-family: 'Roboto Condensed', sans-serif;}
 
-.DMpic {width: 15rem;}
+.DMpic {height: 18rem;}
+
+.RDpic {height: 18rem;}
+
+.NApic {height: 18rem;
+}
+
+.cardgrouptitle {font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#overviewtitle {background-color: #C0D6DF;}
+
+#projecttitle{color: #4F6D7A;
+font-size: 2.5rem;
+font-family: 'Oswald', sans-serif;}
