@@ -15,23 +15,23 @@
     <section id="navbar">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Home</a>
+          <a class="navbar-brand navtext" href="#"><strong>Home</strong></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#resume">Professional Experience</a>
+                <a id="PEnav" class="nav-link active" aria-current="page" href="#resume"><strong>Professional Experience</strong></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="DataMapping.html">Data Mapping</a>
+                <a id="RDnav" class="nav-link active" href="DataMapping.html"><strong>Data Mapping</strong></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="RegDiscon.html">Regression Discontinuity</a>
+                <a id="RDnav" class="nav-link active" href="RegDiscon.html"><strong>Regression Discontinuity</strong></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="netAnalysis.html">Network Analysis</a>
+                <a id="NAnav" class="nav-link active" href="netAnalysis.html"><strong>Network Analysis</strong></a>
               </li>
             </ul>
           </div>
@@ -52,14 +52,14 @@
         <section id = "aboutme" class="container p-4 d-flex justify-content-center">
         <div id="aboutmecard" class="card mb-4 border-secondary">
             <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/headshot.webp" class="img-fluid rounded-start" alt="...">
+              <div class="col-md-3">
+                <img src="images/headshot.webp" id="headshot" class="rounded-start text-center" alt="...">
               </div>
-              <div class="col-md-8">
+              <div class="col-md-7 offset-1">
                 <div class="card-body">
                   <h5 id="aboutmetitle" class="card-title text-center fw-bold">About Me:</h5>
                   <p class="card-text fw-semibold">Hi, my name is Campbell White. I am a current senior, class of 2023, at Washington and Lee University in Lexington, VA. I will hold a Bachelor of Arts degree, with a major in Sociology and minors in Data Science and Women's, Gender, and Sexuality Studies upon graduation. I’m originally from Norfolk, VA.</p>
-                  <p class="card-text fw-semibold">I decided to add a Data Science minor rather late during my time here at W&L. In the middle of my second semester junior year my adviser asked if I had ever considered it. I admitted that I had, but that in my head, a sociology major and data science minor seemed somewhat incompatible. However, I soon leanred how naive I had been; there is certainly immense potential in the sociological field for data science skills and this realization has completely changed how I view my future.</p>
+                  <p class="card-text fw-semibold">I decided to add a Data Science minor rather late during my time here at W&L. In the middle of my second semester junior year my adviser asked if I had ever considered the minor. I admitted that I had, but that I thought sociology and data science to be somewhat incompatible. However, I soon leanred how naive I had been; there is certainly immense potential and use for data science skills in the sociological field and this realization has completely changed how I view my future.</p>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@
           <div class="col-10 offset-1">
       <div id="projectintro" class="card p-2 border-secondary">
         <div class="card-body">
-          Within this portfolio, I’ve included a selection of projects I have worked on throughout my time in the minor.  These projects highlight my sociological interests intersecting with my interests in data science to demostrate just how useful data tools can be for this field.
+          Within this portfolio, I’ve included a selection of projects I have worked on throughout my time in the minor.  These projects highlight my sociological interests as they intersect with my data science skills to demostrate the usefulness of data tools in this field.
         </div>
       </div>
       </div>
@@ -127,33 +127,59 @@
       </section>
 
         <section id = "resume">
-        <div id="resumeheading" class="container p-3 text-center">
+        <div id="resumeheading" id="resumeborder" class="container p-3 text-center border border-5">
             <div class="row">
           <div class="col">
-            <h2><strong>Data Science Professional Experience</strong></h2>
+            <h2>Data Science Professional Experience</h2>
         </div>
       </div>
     </div>
-    <section id="resumeinfo"></section>
-    <div class="card" style="width: 18rem;">
+
+  </section>
+  <section id="buffer6" class="container-fluid p-4">
+  </section>
+
+    <section id="resumeinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+    <div class="card border-secondary text-center">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
+        <h5 class="card-title resumecardtitle"><strong>Development Team Summer Intern</strong></h5>
+        <h6 class="card-subtitle mb-3 text-muted">June 2022 - August 2022</h6>
+        <p class="card-text resumecard">ForKids Nonprofit Organization</p>
+        <h6 class="text-muted mb-3">Norfolk, VA</h6>
+      </div>
+    </div>
+    </div>
+<div class="col-lg-4 mb-4">
+      <div class="card border-secondary text-center">
+        <div class="card-body">
+          <h5 class="card-title resumecardtitle"><strong>Temporary Data Specialist/Intern</strong></h5>
+          <h6 class="card-subtitle mb-3 text-muted">September 2021 - December 2021</h6>
+          <p class="card-text resumecard">Rockbridge Area Relief Association</p>
+          <h6 class="text-muted mb-2">Lexington, VA (remote)</h6>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-lg-4 mb-4">
+      <div class="card border-secondary text-center">
+        <div class="card-body">
+          <h5 class="card-title resumecardtitle"><strong>Summer Research Student</strong></h5>
+          <h6 class="card-subtitle mb-3 text-muted">June 2021 - August 2021</h6>
+          <p class="card-text resumecard">James G. Leyburn Scholars Program in Anthropology</p>
+          <h6 class="text-muted mb-2">Remote</h6>
+        </div>
+      </div>
+      </div>
+      </div>
       </div>
     </section>
 
-    
-    </div>
-        <h2>Development Team Summer Intern</h2>
-        <p>ForKids nonprofit organization (June 2022 - August 2022)</p>
-        <h2>Temporary Data Specialist/Intern</h2>
-        <p>Rockbridge Area Relief Association (September 2021 - December 2021) (remote)</p>
-        <h2>Summer Research Student</h2>
-        <p>Leyburn Summer Scholars Program in Anthropology (June 2021 - August 2021) (remote)</p>
-    </section>
+  </section>
+  <section id="buffer6" class="container-fluid p-4">
+  </section>
       <footer>
         <section id="footer" class="container-fluid p-4">
           <div class="row">

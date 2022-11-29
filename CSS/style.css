@@ -13,6 +13,19 @@ body {font-family: 'Lora', serif;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.navtext {color: #4F6D7A;}
+
+#NAnav {color: #4F6D7A;
+}
+
+#RDnav {color: #4F6D7A;
+}
+
+#DMnav {color: #4F6D7A;
+}
+
+#PEnav {color: #4F6D7A;}
+
 h1 {color: #F9F4EE;
 }
 
@@ -20,13 +33,16 @@ h1 {color: #F9F4EE;
     color: #4F6D7A;
 }
 
-.card-text {font-size: 1.3rem;
+.card-text {font-size: 1.25rem;
     color: #4F6D7A;
 }
 
 #aboutmecard {background-color: #C0D6DF;}
 
 #aboutmetitle {font-family: 'Oswald', sans-serif;}
+
+#headshot {height: 30rem;
+}
 
 #projectintro {background-color:#4F6D7A;
 color: #F9F4EE;
@@ -58,7 +74,7 @@ footer {background-color: #4F6D7A;
 
 #resumeheading {background-color:#4F6D7A;
 color:#F9F4EE;
-font-family: 'Roboto Condensed', sans-serif;}
+font-family: 'Oswald', sans-serif;}
 
 .DMpic {height: 18rem;}
 
@@ -76,3 +92,13 @@ font-family: 'Roboto Condensed', sans-serif;}
 #projecttitle{color: #4F6D7A;
 font-size: 2.5rem;
 font-family: 'Oswald', sans-serif;}
+
+.resumecardtitle {font-family: 'Roboto Condensed', sans-serif;
+font-size: 3rem;}
+
+#resumeborder {border-color: #C0D6DF;
+}
+
+.resumecard {font-size: 1.7rem;}
+
+.card-subtitle {font-size: 1.2rem;}
