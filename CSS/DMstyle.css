@@ -1,0 +1,30 @@
+
+
+body {background-color: #F9F4EE;
+    font-family: 'Lora', serif;
+}
+
+#navbar {background-color: #C0D6DF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navtext {color: #4F6D7A;}
+
+#NAnav {color: #4F6D7A;
+}
+
+#RDnav {color: #4F6D7A;
+}
+
+#DMnav {color: #4F6D7A;
+}
+
+#Title {background-color: #4F6D7A;
+    font-family: 'Oswald', sans-serif;
+    font-size: 7rem;
+    color: #F9F4EE;
+}
+
+footer {background-color: #4F6D7A;
+    color: black;
+}
