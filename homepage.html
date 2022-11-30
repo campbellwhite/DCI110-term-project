@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <section id="navbar">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand navtext" href="#"><strong>Home</strong></a>
@@ -37,55 +36,64 @@
           </div>
         </div>
       </nav>
-    </section>
+
     <section id="buffer" class="container-fluid p-4">
     </section>
-    <section id = "mainTitle" class="container w-75 p-4">
+
+    <section>
+      <div id="mainTitle" class="container w-75 p-4 border border-5">
         <div class="row">
             <div class="col">
         <h1 class="text-center">Campbell White: Data Science Portfolio</h1>
     </div>
     </div>
+    </div>
     </section>
+
     <section id="buffer2" class="container-fluid p-4">
     </section>
-        <section id = "aboutme" class="container p-4 d-flex justify-content-center">
+
+        <section id = "aboutme">
+          <div class="container p-4">
         <div id="aboutmecard" class="card mb-4 border-secondary">
             <div class="row g-0">
               <div class="col-md-3">
-                <img src="images/headshot.webp" id="headshot" class="rounded-start text-center" alt="...">
+                <img src="images/headshot.webp" id="headshot" class="rounded-start text-center img-fluid" alt="...">
               </div>
-              <div class="col-md-7 offset-1">
+              <div class="col-md-9">
                 <div class="card-body">
-                  <h5 id="aboutmetitle" class="card-title text-center fw-bold">About Me:</h5>
-                  <p class="card-text fw-semibold">Hi, my name is Campbell White. I am a current senior, class of 2023, at Washington and Lee University in Lexington, VA. I will hold a Bachelor of Arts degree, with a major in Sociology and minors in Data Science and Women's, Gender, and Sexuality Studies upon graduation. I’m originally from Norfolk, VA.</p>
-                  <p class="card-text fw-semibold">I decided to add a Data Science minor rather late during my time here at W&L. In the middle of my second semester junior year my adviser asked if I had ever considered the minor. I admitted that I had, but that I thought sociology and data science to be somewhat incompatible. However, I soon leanred how naive I had been; there is certainly immense potential and use for data science skills in the sociological field and this realization has completely changed how I view my future.</p>
+                  <h5 id="aboutmetitle" class="card-title text-center fw-bold fs-1">About Me:</h5>
+                  <p class="card-text fw-semibold fs-5">Hi, my name is Campbell White. I am a current senior, class of 2023, at Washington and Lee University in Lexington, VA. I will hold a Bachelor of Arts degree, with a major in Sociology and minors in Data Science and Women's, Gender, and Sexuality Studies upon graduation. I’m originally from Norfolk, VA.</p>
+                  <p class="card-text fw-semibold fs-5">I decided to add a Data Science minor rather late during my time here at W&L. In the middle of my second semester junior year my adviser asked if I had ever considered the minor. I admitted that I had, but that I thought sociology and data science to be somewhat incompatible. However, I soon leanred how naive I had been; there is certainly immense potential and use for data science skills in the sociological field and this realization has completely changed how I view my future.</p>
                 </div>
               </div>
             </div>
           </div>
+          </div>
+
     </section>
     <section id="buffer3" class="container-fluid p-4">
     </section>
     
-    <section id = "projectheading">
-      <div class="container">
-        <div class="row">
-          <div class="col-4 offset-4">
-      <div id="overviewtitle" class="card p-1 border-secondary">
-        <div id="projecttitle" class="card-body text-center">
-          <strong>Notable Projects</strong>
-        </div>
+    <section id="projecttitle">
+      <div class="projecttitle container w-25 p-4 border border-5 fs-2 text-center">
+      <div class="row">
+          <div class="col">
+      <h2 class="text-center">Notable Projects</h2>
+  </div>
+  </div>
       </div>
-      </div>
-        </div>
-        </div>
-      </section>
+  </section>
+
+</section>
+<section id="buffer7" class="container-fluid p-2">
+</section>
+
     <section id = "overview">
       <div class="container">
         <div class="row">
           <div class="col-10 offset-1">
-      <div id="projectintro" class="card p-2 border-secondary">
+      <div id="projectintro" class="card p-2 border-secondary fs-5 fw-semibold">
         <div class="card-body">
           Within this portfolio, I’ve included a selection of projects I have worked on throughout my time in the minor.  These projects highlight my sociological interests as they intersect with my data science skills to demostrate the usefulness of data tools in this field.
         </div>
@@ -139,6 +147,16 @@
   <section id="buffer6" class="container-fluid p-4">
   </section>
 
+  <section id="pdf">
+    <div class="container mb-4 text-center">
+      <div class="row">
+        <div class="col">
+          <p class="pdf"><a class="fs-5 pdf" href="Campbell White-Resume.pdf">Resume</a> (pdf)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
     <section id="resumeinfo">
     <div class="container">
       <div class="row">
@@ -155,7 +173,7 @@
 <div class="col-lg-4 mb-4">
       <div class="card border-secondary text-center">
         <div class="card-body">
-          <h5 class="card-title resumecardtitle"><strong>Temporary Data Specialist/Intern</strong></h5>
+          <h6 class="card-title resumecardtitle"><strong>Temporary Data Specialist/Intern</strong></h6>
           <h6 class="card-subtitle mb-3 text-muted">September 2021 - December 2021</h6>
           <p class="card-text resumecard">Rockbridge Area Relief Association</p>
           <h6 class="text-muted mb-2">Lexington, VA (remote)</h6>
@@ -184,12 +202,12 @@
         <section id="footer" class="container-fluid p-4">
           <div class="row">
             <div class="col-5 offset-1">
-        <p id="name"><strong>Campbell White</strong></p>
+        <p id="name" class="fs-4"><strong>Campbell White</strong></p>
         <p>Washington and Lee University '23</p>
-        <p>B.A. Sociology major, Data Science and Women's, Gender, and Sexuality minors</p>
+        <p>B.A. Sociology, Data Science and Women's, Gender, and Sexuality minors</p>
       </div>
       <div class="col-5 offset-1">
-        <p id="contact"><strong>Contact:</strong></p>
+        <p id="contact" class="fs-5"><strong>Contact:</strong></p>
         <p>email: whitec23@mail.wlu.edu</p>
         <p>phone: (757)818-1988</p>
       </div>

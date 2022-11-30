@@ -9,7 +9,7 @@ body {font-family: 'Lora', serif;
     font-size: 5rem;
 }
 
-#navbar {background-color: #C0D6DF;
+.navbar {background-color: #C0D6DF;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -29,35 +29,26 @@ body {font-family: 'Lora', serif;
 h1 {color: #F9F4EE;
 }
 
-.card-title {font-size: 3rem;
-    color: #4F6D7A;
+.card-title {color: #4F6D7A;
 }
 
-.card-text {font-size: 1.25rem;
-    color: #4F6D7A;
+.card-text {color: #4F6D7A;
 }
 
 #aboutmecard {background-color: #C0D6DF;}
 
 #aboutmetitle {font-family: 'Oswald', sans-serif;}
 
-#headshot {height: 30rem;
-}
 
-#projectintro {background-color:#4F6D7A;
-color: #F9F4EE;
-font-size: 1.2rem;
+
+#projectintro {background-color: #C0D6DF;
+color: #4F6D7A;
 }
 
 footer {background-color: #4F6D7A;
     color: black;
 }
 
-#name {font-size: 1.5rem;
-}
-
-#contact {font-size: 1.5rem;
-}
 
 #datamapping {background-color: #C0D6DF;
     font-family: 'Roboto Condensed', sans-serif;
@@ -89,15 +80,20 @@ font-family: 'Oswald', sans-serif;}
 
 #overviewtitle {background-color: #C0D6DF;}
 
-#projecttitle{color: #4F6D7A;
-font-size: 2.5rem;
-font-family: 'Oswald', sans-serif;}
+.projecttitle{color: #F9F4EE;
+font-family: 'Oswald', sans-serif;
+background-color: #4F6D7A;
+}
+
 
 .resumecardtitle {font-family: 'Roboto Condensed', sans-serif;
 font-size: 3rem;}
 
 #resumeborder {border-color: #C0D6DF;
 }
+
+.pdf {font-family: 'Roboto Condensed', sans-serif;
+color: #4F6D7A;}
 
 .resumecard {font-size: 1.7rem;}
 
