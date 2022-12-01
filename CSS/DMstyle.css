@@ -25,6 +25,11 @@ body {background-color: #F9F4EE;
     color: #F9F4EE;
 }
 
+#intro {font-family: 'Roboto Condensed', sans-serif;
+color: #4F6D7A;}
+
+#DM {max-height: 38rem;}
+
 footer {background-color: #4F6D7A;
     color: black;
 }
