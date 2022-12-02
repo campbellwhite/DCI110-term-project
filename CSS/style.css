@@ -7,7 +7,10 @@ body {font-family: 'Lora', serif;
 #mainTitle {background-color: #4F6D7A;
     font-family: 'Oswald', sans-serif;
     font-size: 5rem;
+    border-color: red;
 }
+
+.border {border-color: red;}
 
 .navbar {background-color: #C0D6DF;
     font-family: 'Roboto Condensed', sans-serif;

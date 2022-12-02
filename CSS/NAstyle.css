@@ -25,6 +25,16 @@ body {background-color: #F9F4EE;
     color: #F9F4EE;
 }
 
+#intro {font-family: 'Roboto Condensed', sans-serif;
+    color: #4F6D7A;
+    text-decoration:underline;}
+
+.card-title{color: #4F6D7A;
+font-family: 'Roboto Condensed', sans-serif;}
+
+.card-subtitle{color: #4F6D7A;}
+
+
 footer {background-color: #4F6D7A;
     color: black;
     font-family: 'Roboto Condensed', sans-serif;
