@@ -26,7 +26,19 @@ body {background-color: #F9F4EE;
 }
 
 #intro {font-family: 'Roboto Condensed', sans-serif;
-color: #4F6D7A;}
+color: #4F6D7A;
+text-decoration:underline;}
+
+#overview {color: #4F6D7A;
+background-color: #C0D6DF;
+text-align: justify;}
+
+.card-title {font-family: 'Roboto Condensed', sans-serif;
+color:#4F6D7A;
+text-align: center;
+}
+
+.card-text {color: #4F6D7A;}
 
 #DM {max-height: 38rem;}
 
