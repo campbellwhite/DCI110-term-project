@@ -40,8 +40,16 @@ text-align: center;
 
 .card-text {color: #4F6D7A;}
 
-#DM {max-height: 38rem;}
+#reflectiontitle {color: #F9F4EE;
+background-color: #4F6D7A;
+font-family: 'Oswald', sans-serif;
+}
+
+.reflection {color: #4F6D7A;
+    background-color: #C0D6DF;
+    text-align: justify;}
 
 footer {background-color: #4F6D7A;
     color: black;
+    font-family: 'Roboto Condensed', sans-serif;
 }

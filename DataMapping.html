@@ -52,17 +52,17 @@
         </section>
 
         <section>
-          <div class="container pt-3 pb-4">
+          <div class="container pt-3 pb-4 w-50">
             <div class="row">
               <div class="col">
-                <h2 id="intro" class="text-center"><strong>Examining Focal Variables across American Counties</strong></h2>
+                <h2 id="intro" class="text-center"><strong>Examining Focal Income, Health, and Crime Variables across American Counties</strong></h2>
               </div>
             </div>
           </div>
           <div class="container w-75 pb-4">
           <div class="row">
             <div class="col">
-              <h4 id="overview" class="p-3 fs-5">The aim of this project was to explore the data set and determine if associations exist between the focal variables and different geographic areas. This helps to identify areas in which certain social issues may be disproportionately affecting populations across U.S. counties.</h4>
+              <h4 id="overview" class="p-3 fs-5">The aim of this project was to explore county level health, crime, and income data to explore the extent to which associations may exist between such focal variables and how they are concentrated spatially. This helps to identify areas in which certain social issues may be disproportionately affecting populations across the U.S.</h4>
             </div>
           </div>
         </div>
@@ -76,14 +76,14 @@
             <img src="images/DMpicopt.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fs-2">GINI Index</h5>
-              <p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text fs-5">GINI Index in a measure that captures income inequality in a population. Thus, in the above visualization, the disparity in income can be examined at the county level. Higher GINI indices appear to be concentrated to an extent in the southern half of the country, with lower indices existing in more northern states. This seems to indicate that unequal wealth distribtuion is more extreme in the south, whcih could be due to several other confounding factors. This focal variable provides a complex starting point that generates many questions as to why income inequality seems to display this spatial pattern, some of which are subsequently explored.</p>
             </div>
           </div>
           <div class="card border-secondary">
             <img src="images/dm2size.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fs-2">Violent Crime Rate</h5>
-              <p class="card-text fs-5">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text fs-5">Depicted in the above visualization, violent crime rate is mapped onto counties. There seems to be a divide between the northern and southern half of the country, with northern counties appearing to have lower violent crime rates and southern ones exhbiting higher rates. It seems plausible that the counties with very high violent crime rates are likely to be more urban areas, where more people live and more law enforcement are likely to be active. However, it is important to keep in mind the differences that exist in crime reporting and potentially biased overpolicing of certain areas.</p>
             </div>
           </div>
           </div>
@@ -102,14 +102,14 @@
             <img src="images/dm3size.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fs-2">Primary Care Physician Rate</h5>
-              <p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text fs-5">PCP rate offers a decent idea of the availability of health care at the county level. Preliminarily, counties with higher PCP rates appear to be in the northern half of the country, specifically in the midwest region. Counties in the southern half seem to exhibit lower PCP rates, perhaps due to a higher proportion of rural localities that typically have fewer options for resources in general. This focal variable becomes especially interesting when examined in combination with percent of drinking adults.</p>
             </div>
           </div>
           <div class="card border-secondary">
             <img src="images/dm4size.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fs-2">Percentage of Drinking Adults</h5>
-              <p class="card-text fs-5">This visualization displays the drinking populations in counties with data. Some northern mid-western counties seem to have higher consumption rates, and occassional counties out further west. The southeast appears to have lower percents of drinking adults. There is also a non-trivial number of counties that are missing data.</p>
+              <p class="card-text fs-5">This visualization displays the drinking populations at the county level. Some northern mid-western counties seem to have higher consumption rates, as well as occassional counties out further west. The southeast appears to have lower percentagess of drinking adults. There is also a non-trivial number of counties that are missing data.</p>
             </div>
           </div>
         </div>
@@ -117,17 +117,38 @@
     </div>
     </div>
 
-        <section id="buffer3" class="container-fluid p-4">
+        <section id="buffer3" class="container-fluid p-5">
         </section>
 
-    </section>
+        <section>
+          <div class="container pb-4">
+            <div class="row">
+              <div class="col-4 offset-4">
+                <h4 id="reflectiontitle" class="p-3 fs-2 text-center">Reflection</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+      <section id="reflection">
+        <div class="relfection container w-75 pb-4">
+          <div class="row">
+            <div class="col">
+              <p class="reflection p-3 fs-5 mb-0">This was one of my first exposures to data science and R in general. I utilized some data wrangling techniques that enabled me to transform the numeric values of the focal variables into ordinal categories of values to represent ranging from very low to very high for each data set. Further, I used R's ggplot to construct the spatial visualizations to examine how these focal variables may be similar or different geographically across counties.</p>
+              <p class="reflection fs-5 p-3">While only a preliminary analysis, this exploration raised questions about how unequal wealth distribution can be confounding factor at play affecting each of the subsequent focal variables explored. Income and SES enables and constrains the areas in which one lives, access to health care, the resources that one has available to them most generally. Observing how these population characteristics could be portrayed spatially taught me how important it is for the data with which I am working must not only make sense to me, but must also be intelligible to others who are only studying the visualizations.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     <footer>
       <section id="footer" class="container-fluid p-4">
         <div class="row">
           <div class="col-5 offset-1">
       <p id="name"><strong>Campbell White</strong></p>
       <p>Washington and Lee University '23</p>
-      <p>B.A. Sociology, Data Science and Women's, Gender, & Sexuality studies minors</p>
+      <p>B.A. Sociology</p>
+      <p>Data Science and Women's, Gender, & Sexuality studies minors</p>
     </div>
     <div class="col-5 offset-1">
       <p id="contact"><strong>Contact:</strong></p>
