@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/campbellwhite/public_html/
+    - export DEPLOYPATH=/home/whitec23/public_html/
     - /bin/cp -R * $DEPLOYPATH
