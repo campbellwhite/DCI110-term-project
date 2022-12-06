@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/whitec23/repositories/DCI110-term-project
+    - export DEPLOYPATH=/home/whitec23/public_html/DCI110-term-project
     - /bin/cp -R * $DEPLOYPATH
