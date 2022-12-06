@@ -34,6 +34,17 @@ font-family: 'Roboto Condensed', sans-serif;}
 
 .card-subtitle{color: #4F6D7A;}
 
+.card-text{color: #4F6D7A;}
+
+#reflectiontitle {color: #F9F4EE;
+    background-color: #4F6D7A;
+    font-family: 'Oswald', sans-serif;
+    }
+    
+    .reflection {color: #4F6D7A;
+        background-color: #C0D6DF;
+        text-align: justify;}
+    
 
 footer {background-color: #4F6D7A;
     color: black;
