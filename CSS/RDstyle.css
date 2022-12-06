@@ -25,6 +25,13 @@ body {background-color: #F9F4EE;
     color: #F9F4EE;
 }
 
+.card-title {font-family: 'Roboto Condensed', sans-serif;
+    color:#4F6D7A;
+    text-align: center;
+    }
+    
+.card-text {color: #4F6D7A;}
+
 footer {background-color: #4F6D7A;
     color: black;
     font-family: 'Roboto Condensed', sans-serif;
