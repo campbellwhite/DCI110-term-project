@@ -25,13 +25,15 @@ body {background-color: #F9F4EE;
     color: #F9F4EE;
 }
 
-#intro {font-family: 'Roboto Condensed', sans-serif;
+#intro {
+    font-family: 'Roboto Condensed', sans-serif;
     color: #4F6D7A;
-    text-decoration:underline;}
+    text-decoration:underline;
+}
 
 #overview {color: #4F6D7A;
-        background-color: #C0D6DF;
-        text-align: justify;}
+    background-color: #C0D6DF;
+    text-align: justify;}
 
 .card-title{color: #4F6D7A;
 font-family: 'Roboto Condensed', sans-serif;}
