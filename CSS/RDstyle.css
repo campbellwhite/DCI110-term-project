@@ -25,12 +25,29 @@ body {background-color: #F9F4EE;
     color: #F9F4EE;
 }
 
+#intro {font-family: 'Roboto Condensed', sans-serif;
+    color: #4F6D7A;
+    text-decoration:underline;}
+
+#summary {color: #4F6D7A;
+        background-color: #C0D6DF;
+        text-align: justify;}
+
 .card-title {font-family: 'Roboto Condensed', sans-serif;
     color:#4F6D7A;
     text-align: center;
     }
     
 .card-text {color: #4F6D7A;}
+
+#reflectiontitle {color: #F9F4EE;
+    background-color: #4F6D7A;
+    font-family: 'Oswald', sans-serif;
+    }
+    
+.reflection {color: #4F6D7A;
+        background-color: #C0D6DF;
+        text-align: justify;}
 
 footer {background-color: #4F6D7A;
     color: black;

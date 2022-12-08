@@ -16,7 +16,7 @@
     <section id="navbar">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand nav-link active navtext" href="homepage.html"><strong>Home</strong></a>
+              <a class="navbar-brand nav-link active navtext" href="index.html"><strong>Home</strong></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -40,7 +40,7 @@
         <section id="buffer" class="container-fluid p-4">
         </section>
 
-        <section id = "Title" class="container w-75 p-4">
+        <section id = "Title" class="container w-50 p-4">
             <div class="row">
                 <div class="col">
             <h1 class="text-center">Regression Discontinuity</h1>
@@ -51,6 +51,23 @@
         <section id="buffer2" class="container-fluid p-4">
         </section>
 
+        <section>
+          <div class="container pt-3 pb-4 w-50">
+            <div class="row">
+              <div class="col">
+                <h2 id="intro" class="text-center"><strong>Using Regression Discontinuity to Examine the Effect of the Head Start Program in Impoverished American Counties</strong></h2>
+              </div>
+            </div>
+          </div>
+          <div class="container w-75 pb-4">
+          <div class="row">
+            <div class="col">
+              <h4 id="summary" class="p-3 fs-5">This project explores the effectiveness of a "treatment" variable, in the form of receiving assistance in applying for a Head Start program in impoverished counties. Analysis is possible by examining data points very close to the cutoff point, assuming that the characteristics of these counties are relatively similar.</h4>
+            </div>
+          </div>
+        </div>
+        </section>
+
         <div class="container">
           <div class="row">
             <div class="col">
@@ -59,20 +76,23 @@
             <img src="images/rdpic1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fs-2">Scatterplot of County Poverty Rates Against High School Completion Rates</h5>
-              <p class="card-text fs-5">This visualization shows the bivariate relationship between county poverty rates and high school completion in respective counties. There appears to be an inverse correlation between poverty and high school completion, indicationg that as poverty decreases in a county, high school completion tends to increase. The red line in this plot reflects a cutoff point for a type of "treatment" that will be discussed later.</p>
+              <p class="card-text fs-5">This visualization shows the bivariate relationship between county poverty rates and high school completion in respective counties. There appears to be an inverse correlation between poverty and high school completion, indicating that as poverty decreases in a county, high school completion tends to increase. The red line in this plot reflects a cutoff point at 60% poverty for a type of "treatment" that will be discussed later.</p>
             </div>
           </div>
           <div class="card border-secondary">
             <img src="images/rdpic3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fs-2">Regression Discontinuity Plot</h5>
-              <p class="card-text fs-5"></p>
+              <p class="card-text fs-5">This visualization is a scatterplot fitted with the lines of best fit. At the cutoff point, there appears to be a discontinuity in the measure of high school completionm at the 60% poverty threshold. This cutoff point reflects the level of poverty at which a county is eligble to receive assistance in applying for a Head Start program. Head Start is a program that aims to improve school performance in deeply impoverished areas, and only certain counties that apply will be chosen to have a program. With regression discontinuity, this cutoff point, referred to as a running variable, is established to examine if there is an effect of treatment after it has been administered. This plot serves as preliminary evidence that a discontinuity in high school completion does exist.</p>
             </div>
           </div>
           </div>
         </div>
         </div>
         </div>
+
+        <section id="buffer3" class="container-fluid p-2">
+        </section>
 
         <div class="container">
           <div class="row">
@@ -82,14 +102,14 @@
             <img src="images/rdpic2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fs-2">Regression Discontinuity Model</h5>
-              <p class="card-text fs-5"></p>
+              <p class="card-text fs-5">RD analysis of the effect of treatment on high school completion indicates that receiving help applying for a Head Start program does affect high school completion. RD_model_3 generates a treatment effect of 0.043 (0.008 , 0.092). While this estimate of a local effect is pretty small, we can be certain that there is in fact an effect of treatment on this outcome because the confidence interval does not include zero.</p>
             </div>
           </div>
           <div class="card border-secondary">
             <img src="images/RDpicopt2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title fs-2">Regression Discontinuity Analysis</h5>
-              <p class="card-text fs-5"></p>
+              <p class="card-text fs-5"> The RD plot above shows that before the cutoff, high school completion is decreasing as poverty rate increases; then after the treatment threshold, the intercept for counties above the cutoff is higher and discontinuous from the below treatment counties. Thus, after treatment, high school completion appears to increase initially. This makes sense; if we assume that receiving assistance applying for HS will increase the probability of a HS program actually being instituted in a county, then this will have an effect on high school completion because some of their services seek to improve student performance.</p>
             </div>
           </div>
           </div>
@@ -98,6 +118,27 @@
         </div>
 
         <section id="buffer3" class="container-fluid p-4">
+        </section>
+
+        <section>
+          <div class="container pb-4">
+            <div class="row">
+              <div class="col-4 offset-4">
+                <h4 id="reflectiontitle" class="p-3 fs-2 text-center">Reflection</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="reflection">
+          <div class="relfection container w-75 pb-4">
+            <div class="row">
+              <div class="col">
+                <p class="reflection p-3 fs-5 mb-0">I learned about regression discontinutity in my Data Science Tools for Social Policy course. Using a variety of methods based on regression, treatment effects were the central focus of this course to help discern effective social policy. Regression discontinuity was especially interesting to me because of how it is both reflected in a model, as well as in visualizations.</p>
+                <p class="reflection fs-5 p-3">In the RD plots, a discontinuity in the line of best fit can be seen, indicative that there is a difference in high school completion in counties that did and did not receive assistance in applying for a HS program. Further, this is reinforced by the estimate of the treatment effect in the RD model that was generated. This project helped to reaffirm the importance of having sound mathematical evidence in analyses, while simultaneously presenting them in clear and intelligible ways to an audience of varying exposure to such methods.</p>
+              </div>
+            </div>
+          </div>
         </section>
 
     </section>
