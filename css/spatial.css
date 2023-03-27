@@ -1,5 +1,3 @@
-
-
 body {background-color: #F9F4EE;
     font-family: 'Lora', serif;
 }
@@ -25,26 +23,20 @@ body {background-color: #F9F4EE;
     color: #F9F4EE;
 }
 
-#intro {
-    font-family: 'Roboto Condensed', sans-serif;
+#intro {font-family: 'Roboto Condensed', sans-serif;
     color: #F9F4EE;
-    text-decoration:underline;
-}
+    text-decoration: underline;}
 
-#overview {color: #4F6D7A;
-    background-color: #C0D6DF;
-    text-align: justify;}
+#summary {color: #4F6D7A;
+        background-color: #C0D6DF;
+        text-align: justify;}
 
-
-.pics {height: 30rem;}
-
-
-.card-title{color: #4F6D7A;
-font-family: 'Roboto Condensed', sans-serif;}
-
-.card-subtitle{color: #4F6D7A;}
-
-.card-text{color: #4F6D7A;}
+.card-title {font-family: 'Roboto Condensed', sans-serif;
+    color:#4F6D7A;
+    text-align: center;
+    }
+    
+.card-text {color: #4F6D7A;}
 
 #reflectiontitle {color: #F9F4EE;
     background-color: #4F6D7A;
@@ -54,7 +46,6 @@ font-family: 'Roboto Condensed', sans-serif;}
 .reflection {color: #4F6D7A;
         background-color: #C0D6DF;
         text-align: justify;}
-    
 
 footer {background-color: #4F6D7A;
     color: black;

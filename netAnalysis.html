@@ -23,7 +23,7 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a id="RDnav" class="nav-link active" href="DataMapping.html"><strong>Data Mapping</strong></a>
+                    <a id="RDnav" class="nav-link active" href="spatial_analysis.html"><strong>Spatial Analysis</strong></a>
                   </li>
                   <li class="nav-item">
                     <a id="RDnav" class="nav-link active" href="RegDiscon.html"><strong>Regression Discontinuity</strong></a>
@@ -44,7 +44,7 @@
             <div class="row">
                 <div class="col">
             <h1 class="text-center">Network Analysis</h1>
-            <h4 id="intro" class="text-center">Network Visualizations, Community Structure, and Tie Formation of Relationships in a Fictional World</h4>
+            <h4 id="intro" class="text-center">Network Visualizations, Community Structure, and Tie Formation in the Creation of Social Capital</h4>
         </div>
         </div>
         </section>
@@ -57,7 +57,7 @@
         <div class="container w-75 pb-4">
           <div class="row">
             <div class="col">
-              <h4 id="overview" class="p-3 fs-5 mb-4">This project used network analysis methods to explore the different relationship types that exist in the fictional TV series "The Boys". Techniques for this project included network diagrams and visualizations, measures of actor prominence and network cnetralization, and using models to determine how individuals form networks in the aggregate.</h4>
+              <h4 id="overview" class="p-3 fs-5 mb-4">This project used several network analysis techniques to explore different relationship types that exist in the fictional TV series "The Boys", as well as how the network structure emerges through tie formation. Techniques for this project included: network diagrams and visualizations, measures of actor prominence and centralization, community detection algorithms to detect clustering, and Exponential Random Graph models to determine how individuals form networks in the aggregate</h4>
             </div>
           </div>
         </div>
@@ -67,25 +67,18 @@
           <div class="row">
             <div class="col">
             <div class="card-group">
+              <div class="card border-secondary">
+                <img src="images/busvertatt.png" id="busatt" class="pics card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fs-3 text-center"><strong>Business Relationships: Loss of a Loved One due to a Superhero</strong></h5>
+                  <p class="card-text fs-5">This is anetwork diagram of the business relationships in the fictional world. From such visualizations, network types and overall structure can be discerned. This network is quite dense and transitive. This nodes are colored according to whether or not they have lost someone they care about at the hands of a superhero. The premise of this series is humans who have been wronged by superheroes conspiring to bring them down; thus, it is expected that this attribute of the characters would influence the structure of relationships. It does appear to do so; the people who have lost someone because of a superhero seem to cluster together to some extent, and the superheroes themselves, not having lost someone, seem to also band together.</p>
+                </div>
+              </div>
           <div class="card border-secondary">
-            <img src="images/fam.png" class="card-img-top" alt="...">
+            <img src="images/com_detect.png" id="com_detect" class="pics card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title fs-3 text-center"><strong>Familial Relationships</strong></h5>
-              <p class="card-text fs-5">A rather small network is visble above representing the familial relationshios in this fictional world of "The Boys" TV series. There are several components, comprised of mainly dyads and a few triads. This network is very decentralized.</p>
-            </div>
-          </div>
-          <div class="card border-secondary">
-            <img src="images/rom.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fs-3 text-center"><strong>Romantic Relationships</strong></h5>
-              <p class="card-text fs-5">This is another relatively small and disjointed network, again with several components. This is a visualization of the romantic networks in this fictional world. There is a larger spoke-like structured component, with several other dyads and triads. This network is also decentralized.</p>
-            </div>
-          </div>
-          <div class="card border-secondary">
-            <img src="images/NApicopt.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fs-3 text-center"><strong>Business Relationships</strong></h5>
-              <p class="card-text fs-5">The network of business relationships is by far the largest one of the relatonship types considered. This network is very dense and transitive, indicating that many nodes have relationships with many other nodes. Some nodes are more central than others, such as Starlight, Maeve, Hughie, and Butcher.</p>
+              <h5 class="card-title fs-3 text-center"><strong>Community Detection Algorithms</strong></h5>
+              <p class="card-text fs-5">Community detection algorithms provide network analysts with various ways in which network clustering and groups can be divided. The algoritms determine the nest fitting groups within the network, and by numbering the nodes with a certain nodal attribute it is possible to see how well the algorithms clustered similar nodes. This diagram has the three shaded clusters found by the two best fitting algorithms, as well as nodes that are numbered according to whther or not they have lost a loved one because of a superhero. It is clear how the algorithms created clusters comprised of mostly similar nodes; a 1 denotes a character who has not lost someone and a 2 denotes a character who has. These algirthms are useful in visualizing and determine how clustered or lack thereof a network is.</p>
             </div>
           </div>
           </div>
@@ -109,24 +102,17 @@
             <div class="col">
             <div class="card-group">
           <div class="card border-secondary">
-            <img src="images/fam.vertexatt.png" class="card-img-top" alt="...">
+            <img src="images/ergm.png" class="card-img-top pics" alt="...">
             <div class="card-body">
-              <h5 class="card-title fs-2 text-center"><strong>Familial Relationships: Superhero or Human?</strong></h5>
-              <p class="card-text fs-5">This is the same familial network as above, this type with the nodes representing if their are a superheor or human. This is useful when examining why the network is structured he way that it is; are relationships shaped by whether someone is super or not? These being familial ties makes the grouping of superheroes or of humans less extreme; typically, it is not possible to choose the people to which one is related.</p>
+              <h5 class="card-title fs-2 text-center"><strong>ERGM</strong></h5>
+              <p class="card-text fs-5">This is the output of an Exponential Random Graph model. These can be used to predict tie formation in a network in hopes of generating the actual network structure based on various model specifications that reflect tie-generative social processes. I include a number of nodal-level predictors, like gender and race, as well as dyadic-level predictors, such as if a pair of connected nodes shares the same attitudes towards suoerheroes or not. Thirdly, it is important to include a structural term in the model to see if processes like triadic closure are occurring between three nodes more than what would be expected by chance. All of these predictors work to simulate the actual structure that can be observed in network diagram. In this case, not many of the predictors used were signifcant in predicting tie formation, except for attitudes about superheroes, gender, and triadic closure.</p>
             </div>
           </div>
           <div class="card border-secondary">
-            <img src="images/rom.vertatt.png" class="card-img-top" alt="...">
+            <img src="images/sims.png" class="card-img-top pics" alt="...">
             <div class="card-body">
-              <h5 class="card-title fs-3 text-center"><strong>Romantic Relationships: For or Against Superheroes</strong></h5>
-              <p class="card-text fs-5">Here, the romantic relationships and the respective characters are colored according to if they personally support or oppose superheroes. Compared to the last network (family), there does appear to be more gorupings of relationships shaped by attitudes towards superheroes. This is referred to as homophily, when nodes generate ties with other nodes who share similar charcateristics.</p>
-            </div>
-          </div>
-          <div class="card border-secondary">
-            <img src="images/busvertatt.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fs-3 text-center"><strong>Business Relationships: Loss of a Loved One due to a Superhero</strong></h5>
-              <p class="card-text fs-5">This network of business ties reflects whether a node has lossed someone that they cared about at the hands of a superhero. The premise of this series is humans who have been wronged by superheroes conspiring to bring them down; thus, it is expected that this attribute of the characters would influence the structure of relationships. It does appear to do so; the people who have lost someone because of a superhero seem to cluster together to some extent, and the superheroes themselves, not having lost someone, seem to also band together.</p>
+              <h5 class="card-title fs-3 text-center"><strong>Simulations</strong></h5>
+              <p class="card-text fs-5">Above are the various iterations of the network that were generated by a sequence of ERGMs that I specified. The first one is completely random with edges placed between nodes totally by chance. The second diagram is the network that was generated by the most specified ERGM. The third diagram is the actual network diagram of the business ties in this fictional world. Clearly, the best specified ERGM is not all that similar looking to the real network. Thus, my ERGM is not a great representation of the influences of tie formation in this network. However, there is certainly a change in structure from the first to the second so identifying better predictors would most likely  improve the ERGM.</p>
             </div>
           </div>
           </div>
@@ -151,8 +137,8 @@
           <div class="relfection container w-75 pb-4">
             <div class="row">
               <div class="col">
-                <p class="reflection p-3 fs-5 mb-0">Included above is only the preliminary steps of network analysis to which I was exposed in my Exploring Social Networks course. Visualizations are the first tools which can be used to discern basic descriptive information about networks. In this course, we also studied actor prominence and measure of centralization of networks. These elemnets further help to deteriine the most influential members of a network, who also likely shape othe rnetowrk ties to some extent. These measures serve to try and elucidate how network structure impacts vertices at the individual level.</p>
-                <p class="reflection fs-5 p-3">Another dimension of network analysis is trying to determine how nodes at the individual level aggregate to form a network structure. This is done using Exponential Random Graph Models (ERGMs), that try to create the actual network based on nodal attributes, dyadic level predictors, and local structural characteristics. ERGMs produce probabilities of tie formation conditional on the network elements listed previously. A good ERGM will produce simulated network models that very closely resemble the actual network.</p>
+                <p class="reflection p-3 fs-5 mb-0">This project highlighted above was my first exposure to network analysis and was exceptionally rewarding. A major focus of the course was examining how social capital is created within social networks and how this social capital is then diffused throughout the network. Network strucutre can be quite iluminating in how it allows us to see pathways through which information may or may not flow. Many advantages stem from being well-connected, however, nodes located proximate to other networks also benefit from different forms of social capital. The elements exhibited above help to determine influential members of networks who weild power because of the social capital they glean fom their network positions.</p>
+                <p class="reflection fs-5 p-3">Perhaps the biggest theme of studying network analysis was distinguishing between how individuals are affected by their network postion at the individual level compared to determining how nodes at the individual level aggregate to form the overall network structure. Thanks to tools like ERGMs, as discussed above, such tie-generative social processes can be modelled to see if they are influencing or predictive of tie formation in a network. A comprehensive exploration of a social network can be produced using  all of these network analysis tools in hopes of determining who has influence in a network and how it is structurally possible, as well as why a network has the structure that it does.</p>
               </div>
             </div>
           </div>
