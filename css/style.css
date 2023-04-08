@@ -42,11 +42,21 @@ h1 {color: #F9F4EE;
 
 #aboutmetitle {font-family: 'Oswald', sans-serif;}
 
+#skills {color: #4F6D7A;
+    font-family: 'Oswald', sans-serif;}
+
+.list-group-color {background-color: #C0D6DF;
+color: #4F6D7A;}
+
 
 
 #projectintro {background-color: #C0D6DF;
 color: #4F6D7A;
 }
+
+#html {background-color: #C0D6DF;
+    color: #4F6D7A;
+    font-family: 'Oswald', sans-serif;}
 
 footer {background-color: #4F6D7A;
     color: black;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Regression Discontinuity</title>
+    <title>Capstone Research</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oswald:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -46,8 +46,8 @@
         <section id = "Title" class="container w-50 p-4">
             <div class="row">
                 <div class="col">
-            <h1 class="text-center">Regression Discontinuity</h1>
-            <h4 id="intro" class="text-center">Using Regression Discontinuity to Estimate a Local Average Treatment Effect of the Head Start Program in Impoverished American Counties</h4>
+            <h1 class="text-center">Capstone Research Project</h1>
+            <h4 id="intro" class="text-center">Examining the relationship between a feminist self-identity, degree of belief that gender inequality exists, and poltical participation.</h4>
         </div>
         </div>
         </section>
@@ -59,7 +59,7 @@
           <div class="container w-75 pb-4">
           <div class="row">
             <div class="col">
-              <h4 id="summary" class="p-3 fs-5">This project explores the effectiveness of a 'treatment'- a county receiving assistance in applying for a Head Start program in this case- on high school completion. This technique requires choosing a running variable (poverty rates), an outcome variable (high school completion), and a cutoff point at which treatment is administered (60% poverty in a county). An estimate of the local average treatment effect can be determined by observing any discontinuity at the cutoff point among counties’ outcome variable.</h4>
+              <h4 id="summary" class="p-3 fs-5">This entirely-self-directed research project highlights the relationship between an individual who adopts a feminist label and their poltical participation. I hypothesized that those who identify as feminist would participate more than non-feminists and secondly, that the relationship between a feminist identity and politcal participaton was mediated by the degree to which an individual believes that gender inequality exists. Using theoretical modelling and hypothesis testing with OLS and logistic regressions, I found that those who identify as feminist are more poltically active, but that this relationship is not in fact mediated by degree of belief. </h4>
             </div>
           </div>
         </div>
@@ -70,17 +70,14 @@
             <div class="col">
             <div class="card-group">
           <div class="card border-secondary">
-            <img src="images/rdpic1.png" class="card-img-top" alt="...">
+            <img src="images/theor_model.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title fs-2">Scatterplot of County Poverty Rates Against High School Completion Rates</h5>
-              <p class="card-text fs-5">This visualization shows the bivariate relationship between county poverty rates and high school completion in respective counties. There appears to be an inverse correlation between poverty and high school completion, indicating that as poverty decreases in a county, high school completion tends to increase. The red line in this plot represents a cutoff point of 60% poverty that is used to delineate which counties received treatment and which did not.</p>
             </div>
           </div>
           <div class="card border-secondary">
-            <img src="images/rdpic3.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title fs-2">Regression Discontinuity Plot</h5>
-              <p class="card-text fs-5">This visualization is a scatterplot fitted with the lines of best fit. At the cutoff point, there appears to be a discontinuity in the measure of high school completion at the 60% poverty threshold. This cutoff point reflects the level of poverty at which a county is eligble to receive assistance in applying for a Head Start program. Head Start is a program that aims to improve school performance in deeply impoverished areas, and programs will be established in only some counties that complete an application. With regression discontinuity, this cutoff point, referred to as a running variable, is established to examine if there is an effect of treatment after it has been administered. This plot serves as preliminary evidence that a discontinuity in high school completion does exist.</p>
+              <h5 class="card-title fs-2">Theoretical Model</h5>
+              <p class="card-text fs-5">The diagram to the left reflects the theoretical model with which I arrived at my two hypotheses. Through my research, I found evidence that belonging to group or collective identity, like a feminist self-identity, works to socialize individuals to participate in greater rates. In a time when identity politics are quite prevalent, I believe that determining what exactly is driving people to participate, beyond just the self-identity or label, is very important. Thus, I theorized that perhaps this socialization works through changes in the dgeree to which one believes that gender inequality exists in the U.S. today such that those who identify as feminist are socialized to have a higher degree of belief compared to non-femininsts. Therefore, I predicted that the degree to which one believes in the existence of inequality mediates the relationship between a feminist self-identity and political participation.</p>
             </div>
           </div>
           </div>
@@ -91,28 +88,41 @@
         <section id="buffer3" class="container-fluid p-2">
         </section>
 
-        <div class="container">
-          <div class="row">
-            <div class="col">
-            <div class="card-group">
-          <div class="card border-secondary">
-            <img src="images/rdpic2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fs-2">Regression Discontinuity Model</h5>
-              <p class="card-text fs-5">RD analysis of the effect of treatment on high school completion indicates that receiving help applying for a Head Start program does positively affect high school completion. RD_model_3 generates a treatment effect of 0.043 (0.008 , 0.092). While this estimate of a local effect is pretty small, we can be fairly certain that there is in fact an effect of treatment on this outcome because the confidence interval does not include zero.</p>
-            </div>
-          </div>
-          <div class="card border-secondary">
-            <img src="images/RDpicopt2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fs-2">Regression Discontinuity Analysis</h5>
-              <p class="card-text fs-5"> The RD plot above shows that before the cutoff, high school completion is decreasing as poverty rate increases. After the threshold for treatment, the intercept for counties above the cutoff is higher and discontinuous from non-treated counties. Thus, there appears to be an estimated treatment effect of application assistance for a HS program on high school completion rates; counties after the cutoff point who received help in the application process, and are therefore more likely to establish a HS program, had slightly higher high school completion rates compared to the counties just below the cutoff point. RD rests on the assumption that counties within a very close range to the cutoff point are structurally quite similar and that by examining only these counties, it is possible to estimate an effect of treatment because of how alike these counties are to each other.</p>
-            </div>
-          </div>
-          </div>
+        <section id = "results">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Variables</th>
+                <th scope="col">Model 1</th>
+                <th scope="col">Model 2</th>
+                <th scope="col">Model 3</th>
+                <th scope="col">Model 4</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <th scope="row">Feminist</th>
+                <td>0.40*** (0.11)</td>
+                <td>0.37*** (0.11)</td>
+                <td>0.24*** (0.07)</td>
+                <td>0.23*** (0.07)</td>
+              </tr>
+              <tr>
+                <th scope="row">Degree of Belief that Gender Inequality Exists</th>
+                <td></td>
+                <td>0.04 (0.04)</td>
+                <td></td>
+                <td>0.04 (0.02)</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         </div>
         </div>
+        </section>
 
         <section id="buffer3" class="container-fluid p-4">
         </section>

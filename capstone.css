@@ -1,0 +1,55 @@
+
+
+body {background-color: #F9F4EE;
+    font-family: 'Lora', serif;
+}
+
+#navbar {background-color: #C0D6DF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navtext {color: #4F6D7A;}
+
+#NAnav {color: #4F6D7A;
+}
+
+#RDnav {color: #4F6D7A;
+}
+
+#DMnav {color: #4F6D7A;
+}
+
+#Title {background-color: #4F6D7A;
+    font-family: 'Oswald', sans-serif;
+    font-size: 7rem;
+    color: #F9F4EE;
+}
+
+#intro {font-family: 'Roboto Condensed', sans-serif;
+    color: #F9F4EE;
+    text-decoration: underline;}
+
+#summary {color: #4F6D7A;
+        background-color: #C0D6DF;
+        text-align: justify;}
+
+.card-title {font-family: 'Roboto Condensed', sans-serif;
+    color:#4F6D7A;
+    text-align: center;
+    }
+    
+.card-text {color: #4F6D7A;}
+
+#reflectiontitle {color: #F9F4EE;
+    background-color: #4F6D7A;
+    font-family: 'Oswald', sans-serif;
+    }
+    
+.reflection {color: #4F6D7A;
+        background-color: #C0D6DF;
+        text-align: justify;}
+
+footer {background-color: #4F6D7A;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
