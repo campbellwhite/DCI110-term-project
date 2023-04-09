@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="col">
             <h1 class="text-center">Spatial Analysis</h1>
-            <h4 id="intro" class="text-center">Using Regression Discontinuity to Estimate a Local Average Treatment Effect of the Head Start Program in Impoverished American Counties</h4>
+            <h4 id="intro" class="text-center">Exploring the Relationship Between Neighborhoods and Concentrated Disadvantage in Baltimore City, Maryland</h4>
         </div>
         </div>
         </section>
@@ -59,7 +59,7 @@
           <div class="container w-75 pb-4">
           <div class="row">
             <div class="col">
-              <h4 id="summary" class="p-3 fs-5">This project explores the effectiveness of a 'treatment'- a county receiving assistance in applying for a Head Start program in this case- on high school completion. This technique requires choosing a running variable (poverty rates), an outcome variable (high school completion), and a cutoff point at which treatment is administered (60% poverty in a county). An estimate of the local average treatment effect can be determined by observing any discontinuity at the cutoff point among counties’ outcome variable.</h4>
+              <h4 id="summary" class="p-3 fs-5">This project explores the distribution and potential factors affecting racial residential segregation in Baltimore. <strong>Through the use of spatial visualization, spatial lag models to assess spatial autocorrelation, historical redlining data to predict settlement patterns, and identification of gentrified areas, a comprehensive look at the ethno-racial composition of this city becomes possible.</strong></h4>
             </div>
           </div>
         </div>
@@ -70,17 +70,17 @@
             <div class="col">
             <div class="card-group">
           <div class="card border-secondary">
-            <img src="images/rdpic1.png" class="card-img-top" alt="...">
+            <img src="images/balt_white.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title fs-2">Scatterplot of County Poverty Rates Against High School Completion Rates</h5>
-              <p class="card-text fs-5">This visualization shows the bivariate relationship between county poverty rates and high school completion in respective counties. There appears to be an inverse correlation between poverty and high school completion, indicating that as poverty decreases in a county, high school completion tends to increase. The red line in this plot represents a cutoff point of 60% poverty that is used to delineate which counties received treatment and which did not.</p>
+              <h5 class="card-title fs-2">Distribution of White Residents</h5>
+              <p class="card-text fs-5">This visualization shows the distribution of residents who identify as white throughout the city. <strong>This exploration began by first assessing if there seems to be spatial autocorrelation within the settlement patterns of residents of different racial groups.</strong> Plotting percent white serves as a proxy for capturing diversity such that majority white areas are less diverse compared to areas that are predominantly non-white. <strong>In this map, it is clear that majority white spaces (the darkest shaded regions) do appear to be clustered near each other, specifically in the northwest of the city and in the south east near the harbor.</strong></p>
             </div>
           </div>
           <div class="card border-secondary">
-            <img src="images/rdpic3.png" class="card-img-top" alt="...">
+            <img src="images/balt_pov.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title fs-2">Regression Discontinuity Plot</h5>
-              <p class="card-text fs-5">This visualization is a scatterplot fitted with the lines of best fit. At the cutoff point, there appears to be a discontinuity in the measure of high school completion at the 60% poverty threshold. This cutoff point reflects the level of poverty at which a county is eligble to receive assistance in applying for a Head Start program. Head Start is a program that aims to improve school performance in deeply impoverished areas, and programs will be established in only some counties that complete an application. With regression discontinuity, this cutoff point, referred to as a running variable, is established to examine if there is an effect of treatment after it has been administered. This plot serves as preliminary evidence that a discontinuity in high school completion does exist.</p>
+              <h5 class="card-title fs-2">Distribution of Poverty</h5>
+              <p class="card-text fs-5">This visualization represents the spatial distribution of residents living in poverty across the city. Plotting poverty allows us to see which areas are the most impoverished and likely experiencing concentrated disadvantage. <strong>It seems that the poorest parts of the city are in the middle and span outwards in most directions from there. What is most interesting is comparing the poorest areas to the map of percent white residents to the left. It looks like the predominantly white areas have the lowest rates of poverty, while the areas that are the least white look to have the highest rates of poverty. Between these two plots, it does seem that there is preliminary evidence of racial residential segregation and primarily non-white areas are the most impoverished.</strong></p>
             </div>
           </div>
           </div>
@@ -96,17 +96,17 @@
             <div class="col">
             <div class="card-group">
           <div class="card border-secondary">
-            <img src="images/rdpic2.png" class="card-img-top" alt="...">
+            <img src="images/redline_density.png" id = "model1" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title fs-2">Regression Discontinuity Model</h5>
-              <p class="card-text fs-5">RD analysis of the effect of treatment on high school completion indicates that receiving help applying for a Head Start program does positively affect high school completion. RD_model_3 generates a treatment effect of 0.043 (0.008 , 0.092). While this estimate of a local effect is pretty small, we can be fairly certain that there is in fact an effect of treatment on this outcome because the confidence interval does not include zero.</p>
+              <h5 class="card-title fs-2">Redlining Data and Distribution of White Residents</h5>
+              <p class="card-text fs-5">Above is a density plot of the <strong>distribution of white residents across the city in 2010 disaggregated by which letter was assigned to respective census tracts when redlining was actively occurring.</strong> Typically, when looking at how redining has affected racial composition of neighborhoods over time, we would expect to see that tracts graded as a C or D would be predominantly non-white areas because legacies of historic racial discrimination and segregation often have ling-lasting effects. In this type of plot specficially, we would expect to see much less overlap of the different grades and the green and purple distributions would tend to have the lowest percentage of white residents. However, this plot presents us with quite striking data. <strong>Areas that were graded as C have the highest percentage of white residents. Further, there is quite a bit of overlap between the different distributions seeming to indicate that historic redlining categories are not very predictive of racial composition of neighborhoods in 2010</strong>. As this is a surprising result, some other social process must be at work that is altering where we would expect to see higher versus lower percentages of white residents across the city.</p>
             </div>
           </div>
           <div class="card border-secondary">
-            <img src="images/RDpicopt2.png" class="card-img-top" alt="...">
+            <img src="images/gentrification.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title fs-2">Regression Discontinuity Analysis</h5>
-              <p class="card-text fs-5"> The RD plot above shows that before the cutoff, high school completion is decreasing as poverty rate increases. After the threshold for treatment, the intercept for counties above the cutoff is higher and discontinuous from non-treated counties. Thus, there appears to be an estimated treatment effect of application assistance for a HS program on high school completion rates; counties after the cutoff point who received help in the application process, and are therefore more likely to establish a HS program, had slightly higher high school completion rates compared to the counties just below the cutoff point. RD rests on the assumption that counties within a very close range to the cutoff point are structurally quite similar and that by examining only these counties, it is possible to estimate an effect of treatment because of how alike these counties are to each other.</p>
+              <h5 class="card-title fs-2">Past and Present Poverty and Racial Composition</h5>
+              <p class="card-text fs-5">This scatterplot shows how census tracts have changed over the course of 9 years with respect to poverty rates. Also, the points are colored by how each tract has changed regarding racial composition of precentage of white residents in the tract. This plots allows us to see if there are some tracts are becoming more or less impoverished and also to what extent they are changing in racial composition. After considering what the redlining data predicted about racial composition, I theorized that gentrification could be at work in Baltimore, with usually more white residents moving into majority non-white and poorer areas as they are reformed and bring in new businesses. <strong>Thus, gentrification could explain the pattern observed in the plot to the left. In this plot, the points that are of most interest are those that have lower poverty rates since 2010 and higher percentages of white residents, as this would indicate the typical result of gentirifcation. These points are located in the lower left quadrant are colored purple. Also of interest from a policy perspective are the points that have lowered poverty since 2010 but have maintained their racial diversity; these would also be in the lower left quadrant colored in shades of orange/red.</strong></p>
             </div>
           </div>
           </div>
@@ -131,8 +131,8 @@
           <div class="relfection container w-75 pb-4">
             <div class="row">
               <div class="col">
-                <p class="reflection p-3 fs-5 mb-0">My mindset about data science overall completely shifted after my experience in SOAN 222, Data Science Tools for Social Policy. In this course, I was able to further my ability to apply data science techniques to real world social phenomena generally, but specifically regarding social policy questions. Regression discontinuity was just one skill we learned. The main focus was to learn statistical methods to examine causality and perform causal inference in relation to social policy decisions. I was introduced to the potential outcomes framework and the use of directed acyclic graphs (DAGs) to examine what it means to say that one social factor is a causal mechanism of another and how my assumptions of social influences are reflected in such graphs. I developed a much deeper understanding of regression analysis that incorporated multivariate analyses and the inclusion of interaction terms in regressions. This study of regression was essential to my learning of different techniques used to study causality and causal inference. </p>
-                <p class="reflection fs-5 p-3">I first learned how to use instrumental variables to estimate a treatment effect when a focal x variable is not randomly assigned. Secondly, I learned the technique of difference-in-differences and used two-way fixed effects to perform causal inference while controlling for the influence of unit-invariant, time varying social factors, as well as time-invariant, unit-varying factors. Thirdly, we covered regression discontinuity, as discussed above. Overall, this course expanded my understanding of regression analysis, taught me how complex determining causality truly is, and reinforced the importance of presenting results in clear and intelligible ways so readers of various exposure to such techniques can understand the social policy implications of the analyses.</p>
+                <p class="reflection p-3 fs-5 mb-0">This course and this project introduced me to a large amount of new material about how social factors and population characteristics are distributed across space. <strong>Most important though, was learning how neighborhoods affect characteristics of other nearby areas and how neighborhoods are extremely influential in an individual's life chance.</strong> Using these various tools to perform spatial analysis truly allows data scientists and sociologists to examine how things like ethno-racial composition and poverty are distributed spatially and if they appear to influence the racial composition or poverty in neighboring tracts.</p>
+                <p class="reflection fs-5 p-3"><strong>Using tools like chloropleth maps, spatial lag models, spatial Durbin models, and OLS regressions to assess how characteristics have changed over time, a story emerges in the city of Baltimore about the degree to which it is racially residentially segregated. These tools help to unpack this initial observation by seeing if historic redlining practices are predictive of the residential segregation that is present. And when this was not the case, regressions using different points in time and residual change allowed for evaluation of potential gentrification occurring in the city that could provide insight on some of the observed settlement patterns.</strong> Overall, these tools are exceptionally useful for city and local governments who hope to identify areas of their cities that would benefit most from policy interventions, as well as trying to see what types of social programming would be most useful across their jurisdictions.</p>
               </div>
             </div>
           </div>
